@@ -4,12 +4,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-body > * {
-    /* border: 1px solid red; */
-    /* align-items: center; */
-    /* justify-content: center; */
-}
-
 ul,
 header span,
 .hero,
@@ -29,7 +23,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
@@ -56,9 +49,7 @@ header a,
     align-items: center;
     justify-content: space-between;
     background-color: #1f2937;
-    /* border: 1px solid red; */
     flex-wrap: wrap;
-    /* align-content: center; */
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -98,10 +89,9 @@ header a,
 .info {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .info h2 {
@@ -160,6 +150,7 @@ header a,
     margin-top: 1em;
     align-self: flex-end;
     font-weight: bold;
+    margin-right: 10em;
 }
 
 .call-to-action {
@@ -175,11 +166,13 @@ header a,
     border-radius: 0.5em;
     flex-wrap: wrap;
     gap: 3em;
+    align-items: center;
 }
 
 .call-to-action h4 {
     font-size: 29px;
     color: #f9faf8;
+    margin-bottom: 0.3em;
 }
 
 .call-to-action p {
