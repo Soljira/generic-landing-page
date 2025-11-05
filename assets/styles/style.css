@@ -1,0 +1,23 @@
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+header span {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
