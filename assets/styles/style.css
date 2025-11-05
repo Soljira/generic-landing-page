@@ -165,14 +165,16 @@ header a,
 .call-to-action {
     padding-top: 5rem;
     padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .call-to-action > div {
     display: flex;
-    justify-content: space-around;
     padding: 3rem;
     border-radius: 0.5em;
     flex-wrap: wrap;
+    gap: 3em;
 }
 
 .call-to-action h4 {
