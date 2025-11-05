@@ -8,4 +8,4 @@ Expected skills to demonstrate:
 -   CSS Basics
 -   Flexbox
 
-[Check the page here!](#)
+[Check the page here!](https://soljira.github.io/generic-landing-page/)
