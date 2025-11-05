@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
 body > * {
@@ -9,13 +10,24 @@ body > * {
     /* justify-content: center; */
 }
 
+ul,
+header span,
+.hero {
+    padding: 0 5rem;
+}
+
+button {
+    border: none;
+}
+
 header {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* border: 1px solid red; */
-    font-family: "Roboto", sans-serif;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 ul {
@@ -29,12 +41,52 @@ header span {
     color: #f9faf8;
 }
 
-header a {
+header a,
+.hero .container p {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-ul,
-header span {
-    padding: 1rem 2rem;
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    /* align-content: center; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 0 1 40%;
+}
+
+.hero .container h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero .container button,
+.call-to-action > div {
+    background-color: #3882f6;
+}
+
+.hero .container button {
+    border-radius: 5px;
+    color: #f9faf8;
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+}
+
+.hero img {
+    flex-shrink: 1;
+    min-width: 0px;
 }
