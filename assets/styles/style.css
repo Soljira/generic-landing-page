@@ -1,3 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body > * {
+    /* border: 1px solid red; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
 header {
     background-color: #1f2937;
     display: flex;
@@ -9,15 +20,21 @@ header {
 
 ul {
     display: flex;
-    /* border: 1px solid red; */
+    gap: 2rem;
 }
 
 header span {
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
 }
 
 header a {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+ul,
+header span {
+    padding: 1rem 2rem;
 }
