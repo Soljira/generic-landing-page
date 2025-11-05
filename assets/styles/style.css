@@ -135,3 +135,29 @@ header a,
     color: #434343;
     text-align: center;
 }
+
+.social-proof {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    align-items: center;
+}
+
+.social-proof > * {
+    width: 20em;
+}
+
+.social-proof h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.social-proof p {
+    margin-top: 1em;
+    align-self: flex-end;
+    font-weight: bold;
+}
